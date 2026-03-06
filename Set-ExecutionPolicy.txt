@@ -1,0 +1,7 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Undefined
+
+powershell.exe -ExecutionPolicy Bypass -File "F:\SOFTWARES\windows modifications\services\disable services\Apply-DisabledServices.ps1"
+
+script in ASCII
